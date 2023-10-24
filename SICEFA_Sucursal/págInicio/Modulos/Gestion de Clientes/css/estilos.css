@@ -1,0 +1,153 @@
+body {
+  background: #7F7FD5;
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+/* 
+.container .color1 {
+	background-color: #6c976f;
+	border: solid #00ccff;;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.container .color2 {
+	background-color: #766bb8;
+	border: solid #00ccff;;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.container .color3 {
+	background-color: #d388aa;
+	border: solid #00ccff;;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+} 
+.container .color4 {
+	background-color: #cdb68c;
+	border: solid #00ccff;;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}  */
+
+.container .title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  padding: 2px 30px;            /* Crea un margen dentro de la caja */
+  margin-bottom: 15px;          /* La separación entre los espacios */
+  
+  border-radius: 10px;
+  /* background-color: aliceblue; */
+  background-color: rgb(88, 103, 107);
+
+}
+
+.container form .detalles-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 0px;              /* La separación entre los espacios */
+  
+}
+
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: none;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+thead{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+tbody{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* barra de navegacion */
+.barra {
+  margin: 10px;
+  outline: 2px solid black;
+  background-color: rgb(255, 255, 255);
+}
+
+.white {
+  color: white;
+}
+
+.imguser {
+  height: 80px;
+  width: 80px;
+}
+
+.MBD {
+  margin-left: 115px;
+}
+
+.MBI {
+  margin-left: 70px;
+}
+
+.imgMTV {
+  height: 100px;
+  width: 310px;
+}
+
+.li {
+  height: 120px;
+  display: flex;
+  width: 197px;
+}
+
+.bgestion {
+  display: flex;
+  width: 197px;
+}
+
+
+.lia {
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+}
+
+
+.lia:hover {
+  background-color: #7b7b7b;
+  color: white;
+}
+
+.containerf {
+  max-width: 1450px;
+  background: #f3f3f3;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+td {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 380px;
+}
+
